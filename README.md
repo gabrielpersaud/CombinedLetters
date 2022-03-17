@@ -12,6 +12,7 @@ Archive files are stored in a dated directory inside of a directory of the respe
 
 (e.g. CombinedLetters/Archive/Admission/20220317/)
 
+
 Combined letters are stored in a dated directory inside the Output directory
 
 (e.g. CombinedLetters/Output/20220317/
