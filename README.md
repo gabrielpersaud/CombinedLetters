@@ -11,7 +11,7 @@ Instructions:
 Archive files are stored in a dated directory inside of a directory of the respective letter type
 
 (e.g. CombinedLetters/Archive/Admission/20220317/)
-
+   
 
 Combined letters are stored in a dated directory inside the Output directory
 
