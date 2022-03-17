@@ -1,5 +1,6 @@
 # CombinedLetters
 UIowa Application Programmer Job Exercise
+
 Instructions:
 - Download repo as zip
 - observe empty output and archive folders
