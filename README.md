@@ -4,6 +4,7 @@ UIowa Application Programmer Job Exercise
 Instructions:
 - download repo as zip
 - observe empty output and archive folders
+- rename dated folders in Input/Admissions and Input/Scholarships to current date or create new folders with custom test files
 - run Program.exe
 - Output folder should now contain combined letter files and report file (student IDs 00000002 and 00000004)
 - Archive folder should now contain archive of letters from Input folder
