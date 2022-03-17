@@ -5,7 +5,7 @@ Instructions:
 - download repo as zip
 - observe empty output and archive folders
 - run Program.exe
-- Output folder should now contain combined letter files and report file
+- Output folder should now contain combined letter files and report file (student IDs 00000002 and 00000004)
 - Archive folder should now contain archive of letters from Input folder
 
 Archive files are stored in a dated directory inside of a directory of the respective letter type
