@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.IO;
 public interface ILetterService{
     void CombineTwoLetters(string inputFile1, string inputFile2, string resultFile);
@@ -60,6 +60,7 @@ public class LetterService : ILetterService{
         return studentsCombinedLetters;
     }
     public static void processIDList(List<string> IDList, string currentDate){ //combines letters for each ID and writes report
+        if (!(IDList.Count>=1)){return;}
         LetterService myLetterService = new LetterService();
         string inputFile1;
         string inputFile2;
@@ -69,6 +70,7 @@ public class LetterService : ILetterService{
         string report = currentDate.Substring(4,2)+"/"+currentDate.Substring(6,2)+"/"+currentDate.Substring(0,4);
         report += " Report\n-------------------------------\n\nNumber of combined letters: "+IDList.Count.ToString()+"\n";
     
+        System.IO.Directory.CreateDirectory(@"Output/"+currentDate);
         //combine letters for necessary students and add ID to report file
         foreach (string id in IDList){
             inputFile1 = System.IO.File.ReadAllText(@"Input/Admission/"+currentDate+"/admission-"+id+".txt");
